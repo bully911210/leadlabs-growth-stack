@@ -54,19 +54,16 @@ const AboutFranz = () => {
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
                 <h1 className="text-4xl md:text-5xl font-dm-sans font-bold mb-6">
-                  Franz Badenhorst
+                  About Franz Badenhorst
                 </h1>
                 <p className="text-xl text-muted-foreground mb-4">
                   Managing Director, SIG Solutions & Acorn Brokers
                 </p>
                 <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                  Franz Badenhorst is the Managing Director of SIG Solutions and Acorn Brokers - a Pretoria-based 
-                  20-agent call center and automation agency. He builds Meta Ads systems, WhatsApp funnels, and n8n 
-                  automations used by NGOs, unions, and commercial teams across South Africa.
+                  Franz Badenhorst is the Managing Director and equity partner at SIG Solutions and Acorn Brokers — a Pretoria-based 20-agent sales and automation agency. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, unions, and commercial teams across South Africa.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Every system Franz builds is focused on one thing: turning marketing spend into measurable revenue. 
-                  No vanity metrics. No guesswork. Just proven ROI for South African businesses.
+                  With over a decade in sales and operations, Franz's focus is building businesses that scale with discipline and precision. He leads SIG Solutions' sales and automation strategy, ensuring every campaign turns marketing spend into measurable revenue.
                 </p>
               </div>
             </div>
@@ -85,7 +82,7 @@ const AboutFranz = () => {
                   <TrendingUp className="text-primary" size={40} />
                 </div>
                 <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">R45M+</div>
-                <p className="text-lg text-muted-foreground font-medium">Ad Spend Managed Across Campaigns</p>
+                <p className="text-lg text-muted-foreground font-medium">Total Managed Ad Spend</p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
@@ -93,7 +90,7 @@ const AboutFranz = () => {
                   <Users className="text-primary" size={40} />
                 </div>
                 <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">20K+</div>
-                <p className="text-lg text-muted-foreground font-medium">Leads Generated Monthly</p>
+                <p className="text-lg text-muted-foreground font-medium">Verified Leads Generated Monthly</p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
@@ -101,78 +98,67 @@ const AboutFranz = () => {
                   <Award className="text-primary" size={40} />
                 </div>
                 <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">320-540%</div>
-                <p className="text-lg text-muted-foreground font-medium">Average ROI Uplift for Clients</p>
+                <p className="text-lg text-muted-foreground font-medium">ROI Uplift Across Client Accounts</p>
+              </div>
+            </div>
+            
+            <div className="max-w-4xl mx-auto mt-16 animate-fade-up" style={{ animationDelay: '0.3s' }}>
+              <p className="text-lg text-muted-foreground leading-relaxed text-center">
+                These figures represent real results from South African businesses using SIG's automation stack — not projections or estimates.
+              </p>
+            </div>
+            
+            <div className="max-w-4xl mx-auto mt-12 animate-fade-up" style={{ animationDelay: '0.4s' }}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="bg-background p-6 rounded-xl shadow-soft">
+                  <div className="text-3xl font-dm-sans font-bold text-gradient mb-2">40%</div>
+                  <p className="text-muted-foreground">Higher conversion rate through WhatsApp automation</p>
+                </div>
+                <div className="bg-background p-6 rounded-xl shadow-soft">
+                  <div className="text-3xl font-dm-sans font-bold text-gradient mb-2">R5</div>
+                  <p className="text-muted-foreground">Average cost per lead</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Timeline */}
+        {/* Experience & Focus */}
         <section className="py-20 px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-16">
-              Building LeadLabs
+              Experience & Focus
             </h2>
             
             <div className="space-y-10">
-              <div className="flex items-start space-x-6 animate-fade-up">
-                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                <div>
-                  <h3 className="text-xl font-dm-sans font-semibold mb-3">From Traditional to Performance Marketing</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Started in traditional marketing, quickly realized that most agencies sell impressions and 
-                    engagement metrics instead of results. Focused on proving ROI from day one - tracking every 
-                    rand spent against revenue generated.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                <div>
-                  <h3 className="text-xl font-dm-sans font-semibold mb-3">Meta Ads Mastery</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Built campaigns across NGOs, commercial brands, and subscription businesses. Managed R45M+ 
-                    in ad spend while maintaining an average cost per lead of R5 and cost per click of R1.50. 
-                    Learned what actually works in the South African market.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                <div>
-                  <h3 className="text-xl font-dm-sans font-semibold mb-3">WhatsApp Automation Breakthrough</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Identified that leads from Meta Ads were dying due to slow follow-up. Built WhatsApp 
-                    automation systems using the official Business API. Conversion rates jumped 40% 
-                    overnight. Now generating 20K+ verified leads monthly through automated systems.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                <div>
-                  <h3 className="text-xl font-dm-sans font-semibold mb-3">Building SIG Solutions</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Co-founded SIG Solutions - a 20-agent call center and automation agency based in Pretoria. 
-                    Also Managing Director of Acorn Brokers. Systems now serve NGOs, unions, and commercial 
-                    teams across South Africa with proven 320-540% ROI uplift.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
-                <div>
-                  <h3 className="text-xl font-dm-sans font-semibold mb-3">LeadLabs Today</h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    LeadLabs delivers full-stack marketing automation systems: Meta Ads, WhatsApp API, 
-                    n8n workflows, and complete CRM integration. Every system is built for measurable 
-                    revenue growth, not vanity metrics.
-                  </p>
-                </div>
+              <div className="animate-fade-up">
+                <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+                  Franz's background spans direct sales, call center management, and performance marketing. He's managed R45M+ in ad spend, consistently delivering low-cost, high-quality lead systems.
+                </p>
+                
+                <h3 className="text-xl font-dm-sans font-semibold mb-4">Core Expertise</h3>
+                <ul className="space-y-3 text-lg text-muted-foreground">
+                  <li className="flex items-start">
+                    <span className="mr-3">•</span>
+                    <span>Meta Ads performance campaigns (R5 avg. cost per lead, R1.50 per click)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3">•</span>
+                    <span>WhatsApp API & n8n automation funnels</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3">•</span>
+                    <span>Call center workflow optimization and reporting</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="mr-3">•</span>
+                    <span>Scalable subscription and NGO fundraising systems</span>
+                  </li>
+                </ul>
+                
+                <p className="text-lg text-muted-foreground leading-relaxed mt-8">
+                  He doesn't sell vanity metrics. Every system he builds is designed to drive real, trackable growth.
+                </p>
               </div>
             </div>
           </div>
@@ -202,29 +188,47 @@ const AboutFranz = () => {
         <section className="py-20 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-dm-sans font-bold mb-6">
-              Franz's Approach
+              Philosophy
             </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Franz operates with the mindset of a practical entrepreneur — focused, data-driven, and allergic to fluff.
+            </p>
             <div className="space-y-6 text-lg text-muted-foreground">
-              <p className="animate-fade-up">
-                "Marketing should be measurable. If you can't track it, you can't improve it. Every system I build 
-                starts with one question: how do we prove ROI?"
-              </p>
-              <p className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                "Automation isn't about replacing humans - it's about removing the repetitive tasks so your team 
-                can focus on what actually drives revenue."
-              </p>
-              <p className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                "South African businesses deserve world-class marketing systems. That's what we build at SIG Solutions, 
-                and that's what LeadLabs delivers."
-              </p>
+              <blockquote className="italic animate-fade-up">
+                "If you can't measure it, you can't improve it."
+              </blockquote>
+              <blockquote className="italic animate-fade-up" style={{ animationDelay: '0.1s' }}>
+                "Automation doesn't replace people; it amplifies their output."
+              </blockquote>
+              <blockquote className="italic animate-fade-up" style={{ animationDelay: '0.2s' }}>
+                "South African businesses deserve systems that turn effort into consistent profit."
+              </blockquote>
             </div>
+            <p className="text-lg text-muted-foreground mt-8 animate-fade-up" style={{ animationDelay: '0.3s' }}>
+              He builds systems that survive market shocks, scale cleanly, and keep delivering long after the first sale.
+            </p>
+          </div>
+        </section>
+
+        {/* Mission at LeadLabs */}
+        <section className="py-20 px-4 bg-secondary/30">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold mb-6">
+              Mission at LeadLabs
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6 animate-fade-up">
+              Through LeadLabs, Franz combines Meta Ads, WhatsApp automation, and n8n workflows into one full-stack marketing engine — purpose-built for measurable ROI.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
+              LeadLabs exists for one reason: to help South African businesses prove their marketing works. No guesswork. No vanity KPIs. Just performance that pays.
+            </p>
           </div>
         </section>
 
         <CTASection
-          title="Talk to Franz - Build Your Marketing Stack"
-          description="Book a free strategy call. Franz will personally review your current setup and show you exactly where automation can scale your revenue."
-          buttonText="Book Your Call With Franz"
+          title="Talk to Franz"
+          description="Book a free strategy call. Franz will personally review your current setup and show where automation can unlock real revenue growth."
+          buttonText="Book Your Call"
         />
       </main>
 
