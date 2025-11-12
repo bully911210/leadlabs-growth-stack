@@ -10,8 +10,8 @@ const AboutFranz = () => {
     <>
       <SEOHead
         title="About Franz Badenhorst - Marketing Automation Expert in South Africa"
-        description="Franz Badenhorst is CSO and co-owner of SIG Solutions. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, unions, and commercial teams across South Africa."
-        keywords="Franz Badenhorst, SIG Solutions CSO, Meta Ads expert South Africa, automation specialist, South African marketing expert"
+        description="Franz Badenhorst is Managing Director of SIG Solutions and Acorn Brokers. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, unions, and commercial teams across South Africa."
+        keywords="Franz Badenhorst, SIG Solutions Managing Director, Meta Ads expert South Africa, automation specialist, South African marketing expert"
         canonicalUrl="https://leadlabs.co.za/about-franz"
       />
 
@@ -21,7 +21,7 @@ const AboutFranz = () => {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Franz Badenhorst",
-          "jobTitle": "Chief Strategy Officer",
+          "jobTitle": "Managing Director",
           "worksFor": {
             "@type": "Organization",
             "name": "SIG Solutions",
@@ -57,14 +57,14 @@ const AboutFranz = () => {
                   Franz Badenhorst
                 </h1>
                 <p className="text-xl text-muted-foreground mb-4">
-                  Chief Strategy Officer & Co-Owner, SIG Solutions
+                  Managing Director, SIG Solutions & Acorn Brokers
                 </p>
-                <p className="text-lg text-muted-foreground mb-4">
-                  Franz Badenhorst is the CSO and co-owner of SIG Solutions - a Pretoria-based sales and marketing 
-                  automation agency. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, 
-                  unions, and commercial teams across South Africa.
+                <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                  Franz Badenhorst is the Managing Director of SIG Solutions and Acorn Brokers - a Pretoria-based 
+                  20-agent call center and automation agency. He builds Meta Ads systems, WhatsApp funnels, and n8n 
+                  automations used by NGOs, unions, and commercial teams across South Africa.
                 </p>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   Every system Franz builds is focused on one thing: turning marketing spend into measurable revenue. 
                   No vanity metrics. No guesswork. Just proven ROI for South African businesses.
                 </p>
@@ -76,32 +76,32 @@ const AboutFranz = () => {
         {/* Achievements */}
         <section className="py-20 px-4 bg-secondary/30">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-16">
               Track Record
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="text-center animate-fade-up">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="text-primary" size={32} />
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <TrendingUp className="text-primary" size={40} />
                 </div>
-                <div className="text-4xl font-dm-sans font-bold text-gradient mb-2">R45M+</div>
-                <p className="text-muted-foreground">Ad Spend Managed Across Campaigns</p>
+                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">R45M+</div>
+                <p className="text-lg text-muted-foreground font-medium">Ad Spend Managed Across Campaigns</p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <Users className="text-primary" size={32} />
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <Users className="text-primary" size={40} />
                 </div>
-                <div className="text-4xl font-dm-sans font-bold text-gradient mb-2">50K+</div>
-                <p className="text-muted-foreground">Leads Automated Through Systems</p>
+                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">20K+</div>
+                <p className="text-lg text-muted-foreground font-medium">Leads Generated Monthly</p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <Award className="text-primary" size={32} />
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <Award className="text-primary" size={40} />
                 </div>
-                <div className="text-4xl font-dm-sans font-bold text-gradient mb-2">320%</div>
-                <p className="text-muted-foreground">Average ROAS Increase for Clients</p>
+                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">320-540%</div>
+                <p className="text-lg text-muted-foreground font-medium">Average ROI Uplift for Clients</p>
               </div>
             </div>
           </div>
@@ -110,62 +110,67 @@ const AboutFranz = () => {
         {/* Timeline */}
         <section className="py-20 px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
-              How Franz Got Here
+            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-16">
+              Building LeadLabs
             </h2>
             
-            <div className="space-y-8">
-              <div className="flex items-start space-x-4 animate-fade-up">
-                <div className="w-3 h-3 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+            <div className="space-y-10">
+              <div className="flex items-start space-x-6 animate-fade-up">
+                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Early Marketing Career</h3>
-                  <p className="text-muted-foreground">
-                    Started in traditional marketing, quickly realized that most agencies sell impressions instead of results. 
-                    Decided to build something better.
+                  <h3 className="text-xl font-dm-sans font-semibold mb-3">From Traditional to Performance Marketing</h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Started in traditional marketing, quickly realized that most agencies sell impressions and 
+                    engagement metrics instead of results. Focused on proving ROI from day one - tracking every 
+                    rand spent against revenue generated.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-3 h-3 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Meta Ads Specialization</h3>
-                  <p className="text-muted-foreground">
-                    Became obsessed with Meta's advertising platform. Ran campaigns for NGOs, commercial brands, and 
-                    subscription businesses - learning what actually drives ROI in the South African market.
+                  <h3 className="text-xl font-dm-sans font-semibold mb-3">Meta Ads Mastery</h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Built campaigns across NGOs, commercial brands, and subscription businesses. Managed R45M+ 
+                    in ad spend while maintaining an average cost per lead of R5 and cost per click of R1.50. 
+                    Learned what actually works in the South African market.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-3 h-3 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
+                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">WhatsApp & Automation Discovery</h3>
-                  <p className="text-muted-foreground">
-                    Realized that leads from Meta Ads were dying because follow-up was too slow. Built the first 
-                    WhatsApp automation system using the official Business API - conversion rates jumped 40%.
+                  <h3 className="text-xl font-dm-sans font-semibold mb-3">WhatsApp Automation Breakthrough</h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Identified that leads from Meta Ads were dying due to slow follow-up. Built WhatsApp 
+                    automation systems using the official Business API. Conversion rates jumped 40% 
+                    overnight. Now generating 20K+ verified leads monthly through automated systems.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-                <div className="w-3 h-3 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.3s' }}>
+                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Co-Founding SIG Solutions</h3>
-                  <p className="text-muted-foreground">
-                    Joined forces with technical partners to build SIG Solutions - a full-stack marketing agency 
-                    focused exclusively on automation, attribution, and ROI. Now serving clients across South Africa.
+                  <h3 className="text-xl font-dm-sans font-semibold mb-3">Building SIG Solutions</h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Co-founded SIG Solutions - a 20-agent call center and automation agency based in Pretoria. 
+                    Also Managing Director of Acorn Brokers. Systems now serve NGOs, unions, and commercial 
+                    teams across South Africa with proven 320-540% ROI uplift.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-                <div className="w-3 h-3 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.4s' }}>
+                <div className="w-4 h-4 rounded-full bg-primary mt-2 flex-shrink-0"></div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Today: LeadLabs</h3>
-                  <p className="text-muted-foreground">
-                    LeadLabs is the service arm where Franz personally works with businesses to build their marketing 
-                    automation stacks - Meta Ads, WhatsApp, n8n workflows, and everything in between.
+                  <h3 className="text-xl font-dm-sans font-semibold mb-3">LeadLabs Today</h3>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    LeadLabs delivers full-stack marketing automation systems: Meta Ads, WhatsApp API, 
+                    n8n workflows, and complete CRM integration. Every system is built for measurable 
+                    revenue growth, not vanity metrics.
                   </p>
                 </div>
               </div>

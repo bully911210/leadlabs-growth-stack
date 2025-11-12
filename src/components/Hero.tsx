@@ -33,12 +33,12 @@ const Hero = ({ title, subtitle, ctaText = "Book a Strategy Call", backgroundIma
         <h1 className={`text-5xl md:text-6xl lg:text-7xl font-dm-sans font-bold mb-6 animate-fade-up ${backgroundImage ? 'text-white drop-shadow-lg' : ''}`}>
           {title}
         </h1>
-        <p className={`text-xl md:text-2xl mb-8 max-w-2xl mx-auto animate-fade-up ${backgroundImage ? 'text-white/95 drop-shadow-md' : 'text-muted-foreground'}`} style={{ animationDelay: '0.1s' }}>
+        <p className={`text-xl md:text-2xl mb-10 max-w-2xl mx-auto animate-fade-up ${backgroundImage ? 'text-white/95 drop-shadow-md' : 'text-muted-foreground'}`} style={{ animationDelay: '0.1s', lineHeight: '1.6' }}>
           {subtitle}
         </p>
         <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-          <Button size="lg" className="rounded-full shadow-elevated hover-lift text-lg px-8" onClick={() => setIsContactOpen(true)}>
-            {ctaText} <ArrowRight className="ml-2" size={20} />
+          <Button size="lg" className="rounded-full shadow-elevated hover-lift text-lg px-10 h-14 font-semibold" onClick={() => setIsContactOpen(true)}>
+            {ctaText} <ArrowRight className="ml-2" size={22} />
           </Button>
         </div>
       </div>

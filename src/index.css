@@ -38,7 +38,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Custom LeadLabs tokens */
+    /* Custom LeadLabs Design System */
     --purple-primary: 252 100% 66%;
     --purple-light: 252 100% 95%;
     --purple-dark: 252 95% 55%;
@@ -47,22 +47,37 @@ All colors MUST be HSL.
     --gradient-purple: linear-gradient(135deg, hsl(252 100% 66%), hsl(272 100% 70%));
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
+    /* Spacing Scale - 8px grid system */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 48px;
+    --spacing-2xl: 64px;
+    --spacing-3xl: 80px;
+    --spacing-4xl: 96px;
+    --spacing-5xl: 120px;
+
+    /* Typography Scale */
+    --font-size-h1: 3.5rem; /* 56px */
+    --font-size-h2: 2.5rem; /* 40px */
+    --font-size-h3: 1.75rem; /* 28px */
+    --font-size-body: 1.125rem; /* 18px */
+    --font-size-small: 0.875rem; /* 14px */
+
+    /* Line Heights */
+    --line-height-heading: 1.25;
+    --line-height-body: 1.7;
+
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -112,14 +127,40 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-inter antialiased smooth-scroll;
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-dm-sans font-bold;
+  h1 {
+    @apply font-dm-sans;
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    line-height: var(--line-height-heading);
+  }
+
+  h2 {
+    @apply font-dm-sans;
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    line-height: var(--line-height-heading);
+  }
+
+  h3 {
+    @apply font-dm-sans;
+    font-size: var(--font-size-h3);
+    font-weight: 600;
+    line-height: var(--line-height-heading);
+  }
+
+  h4, h5, h6 {
+    @apply font-dm-sans;
+    font-weight: 600;
+    line-height: var(--line-height-heading);
   }
 
   p, li {
-    @apply content-spacing;
+    line-height: var(--line-height-body);
+    letter-spacing: 0.01em;
   }
 }
 
@@ -176,12 +217,23 @@ All colors MUST be HSL.
 
   /* Improved readability utilities */
   .content-spacing {
-    line-height: 1.75;
+    line-height: var(--line-height-body);
     letter-spacing: 0.01em;
   }
 
   .smooth-scroll {
     scroll-behavior: smooth;
+  }
+
+  /* Section spacing utilities */
+  .section-padding-y {
+    padding-top: var(--spacing-4xl);
+    padding-bottom: var(--spacing-4xl);
+  }
+
+  .section-padding-y-lg {
+    padding-top: var(--spacing-5xl);
+    padding-bottom: var(--spacing-5xl);
   }
 
   /* Lazy load fade-in animation */

@@ -28,12 +28,12 @@ const Nav = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-10">
             {navLinks.map(({ path, label }) => (
               <Link
                 key={path}
                 to={path}
-                className={`text-sm font-medium transition-colors ${
+                className={`text-base font-medium transition-colors ${
                   isActive(path)
                     ? "text-primary"
                     : "text-foreground/70 hover:text-primary"
@@ -42,7 +42,7 @@ const Nav = () => {
                 {label}
               </Link>
             ))}
-            <Button size="sm" className="rounded-full shadow-purple" onClick={() => setIsContactOpen(true)}>
+            <Button size="default" className="rounded-full shadow-purple h-11 px-6 font-semibold" onClick={() => setIsContactOpen(true)}>
               Book a Call
             </Button>
           </div>
@@ -74,7 +74,7 @@ const Nav = () => {
                 {label}
               </Link>
             ))}
-            <Button size="sm" className="w-full mt-4 rounded-full shadow-purple" onClick={() => {
+            <Button size="default" className="w-full mt-4 rounded-full shadow-purple h-11 font-semibold" onClick={() => {
               setIsContactOpen(true);
               setIsOpen(false);
             }}>
