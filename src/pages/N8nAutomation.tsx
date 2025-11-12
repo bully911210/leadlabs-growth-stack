@@ -11,7 +11,7 @@ const N8nAutomation = () => {
   return (
     <>
       <SEOHead
-        title="n8n Workflow Automation in South Africa — Built by Franz Badenhorst"
+        title="n8n Workflow Automation in South Africa - Built by Franz Badenhorst"
         description="Franz and his team at SIG Solutions connect Meta, WhatsApp, CRMs, and payment systems into seamless n8n workflows. Perfect for SA agencies, NGOs, and growing businesses."
         keywords="n8n automation South Africa, workflow automation, marketing automation systems, CRM integration, Franz Badenhorst automation"
         canonicalUrl="https://leadlabs.co.za/n8n-automation"
@@ -85,7 +85,7 @@ const N8nAutomation = () => {
             </h2>
 
             <div className="space-y-8">
-              <div className="glass-effect rounded-2xl p-8 shadow-soft animate-fade-up">
+              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift">
                 <h3 className="text-2xl font-dm-sans font-bold mb-3">Meta → WhatsApp → CRM</h3>
                 <p className="text-muted-foreground mb-4">
                   A South African NGO was losing 40% of their Meta Ads leads because manual follow-up took too long. 
@@ -98,12 +98,12 @@ const N8nAutomation = () => {
                 </div>
               </div>
 
-              <div className="glass-effect rounded-2xl p-8 shadow-soft animate-fade-up" style={{ animationDelay: '0.1s' }}>
+              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.1s' }}>
                 <h3 className="text-2xl font-dm-sans font-bold mb-3">E-commerce Fulfillment Automation</h3>
                 <p className="text-muted-foreground mb-4">
                   A subscription business needed to connect Stripe payments to their fulfillment system and WhatsApp notifications. 
                   The SIG Solutions team built a workflow that confirms payment, triggers warehouse picking, 
-                  and sends tracking updates — all in real-time.
+                  and sends tracking updates - all in real-time.
                 </p>
                 <div className="flex items-center space-x-2 text-sm">
                   <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">8 hours/week saved</span>
@@ -111,7 +111,7 @@ const N8nAutomation = () => {
                 </div>
               </div>
 
-              <div className="glass-effect rounded-2xl p-8 shadow-soft animate-fade-up" style={{ animationDelay: '0.2s' }}>
+              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.2s' }}>
                 <h3 className="text-2xl font-dm-sans font-bold mb-3">Multi-Platform Reporting Dashboard</h3>
                 <p className="text-muted-foreground mb-4">
                   A commercial client running campaigns across Meta, Google, and LinkedIn needed unified reporting. 

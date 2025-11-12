@@ -3,13 +3,13 @@ import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import SEOHead from "@/components/SEOHead";
 import { Award, Users, TrendingUp } from "lucide-react";
-import franzPortrait from "@/assets/franz-portrait.jpg";
+import franzPortrait from "@/assets/franz-portrait-ByG13AtJ.jpg";
 
 const AboutFranz = () => {
   return (
     <>
       <SEOHead
-        title="About Franz Badenhorst — Marketing Automation Expert in South Africa"
+        title="About Franz Badenhorst - Marketing Automation Expert in South Africa"
         description="Franz Badenhorst is CSO and co-owner of SIG Solutions. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, unions, and commercial teams across South Africa."
         keywords="Franz Badenhorst, SIG Solutions CSO, Meta Ads expert South Africa, automation specialist, South African marketing expert"
         canonicalUrl="https://leadlabs.co.za/about-franz"
@@ -48,7 +48,8 @@ const AboutFranz = () => {
                 <img 
                   src={franzPortrait} 
                   alt="Franz Badenhorst, Chief Strategy Officer at SIG Solutions" 
-                  className="rounded-2xl shadow-soft w-full"
+                  className="rounded-2xl shadow-elevated w-full hover-lift"
+                  loading="lazy"
                 />
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
@@ -59,7 +60,7 @@ const AboutFranz = () => {
                   Chief Strategy Officer & Co-Owner, SIG Solutions
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Franz Badenhorst is the CSO and co-owner of SIG Solutions — a Pretoria-based sales and marketing 
+                  Franz Badenhorst is the CSO and co-owner of SIG Solutions - a Pretoria-based sales and marketing 
                   automation agency. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, 
                   unions, and commercial teams across South Africa.
                 </p>
@@ -131,7 +132,7 @@ const AboutFranz = () => {
                   <h3 className="text-xl font-dm-sans font-bold mb-2">Meta Ads Specialization</h3>
                   <p className="text-muted-foreground">
                     Became obsessed with Meta's advertising platform. Ran campaigns for NGOs, commercial brands, and 
-                    subscription businesses — learning what actually drives ROI in the South African market.
+                    subscription businesses - learning what actually drives ROI in the South African market.
                   </p>
                 </div>
               </div>
@@ -142,7 +143,7 @@ const AboutFranz = () => {
                   <h3 className="text-xl font-dm-sans font-bold mb-2">WhatsApp & Automation Discovery</h3>
                   <p className="text-muted-foreground">
                     Realized that leads from Meta Ads were dying because follow-up was too slow. Built the first 
-                    WhatsApp automation system using the official Business API — conversion rates jumped 40%.
+                    WhatsApp automation system using the official Business API - conversion rates jumped 40%.
                   </p>
                 </div>
               </div>
@@ -152,7 +153,7 @@ const AboutFranz = () => {
                 <div>
                   <h3 className="text-xl font-dm-sans font-bold mb-2">Co-Founding SIG Solutions</h3>
                   <p className="text-muted-foreground">
-                    Joined forces with technical partners to build SIG Solutions — a full-stack marketing agency 
+                    Joined forces with technical partners to build SIG Solutions - a full-stack marketing agency 
                     focused exclusively on automation, attribution, and ROI. Now serving clients across South Africa.
                   </p>
                 </div>
@@ -164,7 +165,7 @@ const AboutFranz = () => {
                   <h3 className="text-xl font-dm-sans font-bold mb-2">Today: LeadLabs</h3>
                   <p className="text-muted-foreground">
                     LeadLabs is the service arm where Franz personally works with businesses to build their marketing 
-                    automation stacks — Meta Ads, WhatsApp, n8n workflows, and everything in between.
+                    automation stacks - Meta Ads, WhatsApp, n8n workflows, and everything in between.
                   </p>
                 </div>
               </div>
@@ -204,7 +205,7 @@ const AboutFranz = () => {
                 starts with one question: how do we prove ROI?"
               </p>
               <p className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                "Automation isn't about replacing humans — it's about removing the repetitive tasks so your team 
+                "Automation isn't about replacing humans - it's about removing the repetitive tasks so your team 
                 can focus on what actually drives revenue."
               </p>
               <p className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
@@ -216,7 +217,7 @@ const AboutFranz = () => {
         </section>
 
         <CTASection
-          title="Talk to Franz — Build Your Marketing Stack"
+          title="Talk to Franz - Build Your Marketing Stack"
           description="Book a free strategy call. Franz will personally review your current setup and show you exactly where automation can scale your revenue."
           buttonText="Book Your Call With Franz"
         />

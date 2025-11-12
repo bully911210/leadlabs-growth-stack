@@ -8,7 +8,7 @@ import CTASection from "@/components/CTASection";
 import SEOHead from "@/components/SEOHead";
 import { Target, MessageSquare, Workflow } from "lucide-react";
 import { Link } from "react-router-dom";
-import franzPortrait from "@/assets/franz-portrait.jpg";
+import franzPortrait from "@/assets/franz-portrait-ByG13AtJ.jpg";
 
 const Index = () => {
   return (
@@ -47,7 +47,7 @@ const Index = () => {
       <main>
         <Hero
           title="Your Growth. Automated."
-          subtitle="LeadLabs builds full-stack marketing systems that turn ad spend into sales — fast, measurable, and South African-built."
+          subtitle="LeadLabs builds full-stack marketing systems that turn ad spend into sales - fast, measurable, and South African-built."
         />
 
         {/* What We Do */}
@@ -116,7 +116,8 @@ const Index = () => {
                 <img 
                   src={franzPortrait} 
                   alt="Franz Badenhorst, CSO of SIG Solutions" 
-                  className="rounded-2xl shadow-soft w-full max-w-md mx-auto"
+                  className="rounded-2xl shadow-elevated w-full max-w-md mx-auto hover-lift"
+                  loading="lazy"
                 />
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
@@ -129,7 +130,7 @@ const Index = () => {
                   not vanity metrics.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
-                  From Meta Ads to WhatsApp automation to n8n workflows — Franz and his team at SIG Solutions 
+                  From Meta Ads to WhatsApp automation to n8n workflows - Franz and his team at SIG Solutions 
                   have proven that marketing automation works when it's done right.
                 </p>
                 <Link 

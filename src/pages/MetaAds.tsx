@@ -11,7 +11,7 @@ const MetaAds = () => {
   return (
     <>
       <SEOHead
-        title="Meta Ads Management in South Africa — Proven ROI by Franz Badenhorst"
+        title="Meta Ads Management in South Africa - Proven ROI by Franz Badenhorst"
         description="Franz Badenhorst is one of South Africa's top Meta Ads strategists. Running campaigns across NGOs, commercial, and subscription models with transparent, ROI-focused results."
         keywords="Meta Ads expert South Africa, Facebook advertising South Africa, Instagram ads South Africa, Meta campaign management, Franz Badenhorst Meta Ads"
         canonicalUrl="https://leadlabs.co.za/meta-ads"
@@ -56,7 +56,7 @@ const MetaAds = () => {
       <main>
         <Hero
           title="Ad Spend That Works As Hard As You Do."
-          subtitle="Franz Badenhorst is one of South Africa's top Meta Ads strategists — running campaigns across NGOs, commercial, and subscription models. Every campaign is built around ROI, not vanity metrics."
+          subtitle="Franz Badenhorst is one of South Africa's top Meta Ads strategists - running campaigns across NGOs, commercial, and subscription models. Every campaign is built around ROI, not vanity metrics."
           backgroundImage={heroMetaAds}
         />
 
@@ -70,7 +70,7 @@ const MetaAds = () => {
                 </div>
                 <h3 className="text-xl font-dm-sans font-bold mb-2">Creative That Converts</h3>
                 <p className="text-muted-foreground">
-                  We test, iterate, and scale the ad creative that actually drives sales — not just engagement.
+                  We test, iterate, and scale the ad creative that actually drives sales - not just engagement.
                 </p>
               </div>
 
@@ -90,7 +90,7 @@ const MetaAds = () => {
                 </div>
                 <h3 className="text-xl font-dm-sans font-bold mb-2">Transparent Reporting</h3>
                 <p className="text-muted-foreground">
-                  You'll see exactly where every Rand goes and what it returns — in real-time dashboards.
+                  You'll see exactly where every Rand goes and what it returns - in real-time dashboards.
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ const MetaAds = () => {
                 <AccordionTrigger className="text-left">What makes your Meta Ads different?</AccordionTrigger>
                 <AccordionContent>
                   We focus exclusively on ROI, not vanity metrics. Every campaign Franz Badenhorst builds is optimized 
-                  for measurable business outcomes — whether that's lead generation, sales, or subscription sign-ups. 
+                  for measurable business outcomes - whether that's lead generation, sales, or subscription sign-ups. 
                   We serve South African businesses with local market expertise.
                 </AccordionContent>
               </AccordionItem>

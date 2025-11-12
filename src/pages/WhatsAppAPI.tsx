@@ -12,7 +12,7 @@ const WhatsAppAPI = () => {
     <>
       <SEOHead
         title="WhatsApp Automation for Businesses in South Africa"
-        description="Franz Badenhorst integrates Meta leads directly into WhatsApp — turning conversations into conversions. Compliant, human-feeling automation built for South African sales teams."
+        description="Franz Badenhorst integrates Meta leads directly into WhatsApp - turning conversations into conversions. Compliant, human-feeling automation built for South African sales teams."
         keywords="WhatsApp API South Africa, WhatsApp automation marketing, WhatsApp business API, automated WhatsApp replies, Franz Badenhorst WhatsApp"
         canonicalUrl="https://leadlabs.co.za/whatsapp-api"
       />
@@ -48,7 +48,7 @@ const WhatsAppAPI = () => {
       <main>
         <Hero
           title="Your Best Salesperson Is Now Automated."
-          subtitle="Franz integrates Meta leads directly into WhatsApp — turning conversations into conversions. Every automation uses compliant APIs and feels human, not robotic."
+          subtitle="Franz integrates Meta leads directly into WhatsApp - turning conversations into conversions. Every automation uses compliant APIs and feels human, not robotic."
           backgroundImage={heroWhatsApp}
         />
 
@@ -62,7 +62,7 @@ const WhatsAppAPI = () => {
                 </div>
                 <h3 className="text-xl font-dm-sans font-bold mb-2">Automated Replies That Feel Human</h3>
                 <p className="text-muted-foreground">
-                  Instant responses to common questions — without sounding like a bot. Built for South African conversational style.
+                  Instant responses to common questions - without sounding like a bot. Built for South African conversational style.
                 </p>
               </div>
 
@@ -72,7 +72,7 @@ const WhatsAppAPI = () => {
                 </div>
                 <h3 className="text-xl font-dm-sans font-bold mb-2">Broadcasts That Sell</h3>
                 <p className="text-muted-foreground">
-                  Send targeted campaigns to segmented lists — with full analytics on open rates and conversions.
+                  Send targeted campaigns to segmented lists - with full analytics on open rates and conversions.
                 </p>
               </div>
 
@@ -82,7 +82,7 @@ const WhatsAppAPI = () => {
                 </div>
                 <h3 className="text-xl font-dm-sans font-bold mb-2">Integrations That Save Hours</h3>
                 <p className="text-muted-foreground">
-                  Connect WhatsApp to your CRM, payment gateway, and Meta Ads — all managed by n8n workflows.
+                  Connect WhatsApp to your CRM, payment gateway, and Meta Ads - all managed by n8n workflows.
                 </p>
               </div>
             </div>
@@ -127,7 +127,7 @@ const WhatsAppAPI = () => {
                 <div>
                   <h3 className="text-xl font-dm-sans font-bold mb-2">Conversion</h3>
                   <p className="text-muted-foreground">
-                    Your team takes over the conversation — with full context from the automation. Every interaction is logged in your CRM.
+                    Your team takes over the conversation - with full context from the automation. Every interaction is logged in your CRM.
                   </p>
                 </div>
               </div>
