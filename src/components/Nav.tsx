@@ -2,9 +2,11 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import ContactModal from "./ContactModal";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isContactOpen, setIsContactOpen] = useState(false);
   const location = useLocation();
 
   const isActive = (path: string) => location.pathname === path;
@@ -40,7 +42,7 @@ const Nav = () => {
                 {label}
               </Link>
             ))}
-            <Button size="sm" className="rounded-full shadow-purple">
+            <Button size="sm" className="rounded-full shadow-purple" onClick={() => setIsContactOpen(true)}>
               Book a Call
             </Button>
           </div>
@@ -72,12 +74,17 @@ const Nav = () => {
                 {label}
               </Link>
             ))}
-            <Button size="sm" className="w-full mt-4 rounded-full shadow-purple">
+            <Button size="sm" className="w-full mt-4 rounded-full shadow-purple" onClick={() => {
+              setIsContactOpen(true);
+              setIsOpen(false);
+            }}>
               Book a Call
             </Button>
           </div>
         )}
       </div>
+
+      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </nav>
   );
 };

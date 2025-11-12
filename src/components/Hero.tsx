@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useState } from "react";
+import ContactModal from "./ContactModal";
 
 interface HeroProps {
   title: string;
@@ -9,7 +11,10 @@ interface HeroProps {
 }
 
 const Hero = ({ title, subtitle, ctaText = "Book a Strategy Call", backgroundImage }: HeroProps) => {
+  const [isContactOpen, setIsContactOpen] = useState(false);
+
   return (
+    <>
     <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
       {backgroundImage && (
         <div 
@@ -29,12 +34,15 @@ const Hero = ({ title, subtitle, ctaText = "Book a Strategy Call", backgroundIma
           {subtitle}
         </p>
         <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
-          <Button size="lg" className="rounded-full shadow-purple hover-lift text-lg px-8">
+          <Button size="lg" className="rounded-full shadow-purple hover-lift text-lg px-8" onClick={() => setIsContactOpen(true)}>
             {ctaText} <ArrowRight className="ml-2" size={20} />
           </Button>
         </div>
       </div>
     </section>
+
+    <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
+    </>
   );
 };
 
