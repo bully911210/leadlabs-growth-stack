@@ -116,7 +116,8 @@ const Index = () => {
                 <img 
                   src={franzPortrait} 
                   alt="Franz Badenhorst, CSO of SIG Solutions" 
-                  className="rounded-2xl shadow-soft w-full max-w-md mx-auto"
+                  className="rounded-2xl shadow-elevated w-full max-w-md mx-auto hover-lift"
+                  loading="lazy"
                 />
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>

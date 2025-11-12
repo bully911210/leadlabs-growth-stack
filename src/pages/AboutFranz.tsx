@@ -48,7 +48,8 @@ const AboutFranz = () => {
                 <img 
                   src={franzPortrait} 
                   alt="Franz Badenhorst, Chief Strategy Officer at SIG Solutions" 
-                  className="rounded-2xl shadow-soft w-full"
+                  className="rounded-2xl shadow-elevated w-full hover-lift"
+                  loading="lazy"
                 />
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>

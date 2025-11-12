@@ -85,7 +85,7 @@ const N8nAutomation = () => {
             </h2>
 
             <div className="space-y-8">
-              <div className="glass-effect rounded-2xl p-8 shadow-soft animate-fade-up">
+              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift">
                 <h3 className="text-2xl font-dm-sans font-bold mb-3">Meta → WhatsApp → CRM</h3>
                 <p className="text-muted-foreground mb-4">
                   A South African NGO was losing 40% of their Meta Ads leads because manual follow-up took too long. 
@@ -98,7 +98,7 @@ const N8nAutomation = () => {
                 </div>
               </div>
 
-              <div className="glass-effect rounded-2xl p-8 shadow-soft animate-fade-up" style={{ animationDelay: '0.1s' }}>
+              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.1s' }}>
                 <h3 className="text-2xl font-dm-sans font-bold mb-3">E-commerce Fulfillment Automation</h3>
                 <p className="text-muted-foreground mb-4">
                   A subscription business needed to connect Stripe payments to their fulfillment system and WhatsApp notifications. 
@@ -111,7 +111,7 @@ const N8nAutomation = () => {
                 </div>
               </div>
 
-              <div className="glass-effect rounded-2xl p-8 shadow-soft animate-fade-up" style={{ animationDelay: '0.2s' }}>
+              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.2s' }}>
                 <h3 className="text-2xl font-dm-sans font-bold mb-3">Multi-Platform Reporting Dashboard</h3>
                 <p className="text-muted-foreground mb-4">
                   A commercial client running campaigns across Meta, Google, and LinkedIn needed unified reporting. 

@@ -111,11 +111,15 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-inter antialiased;
+    @apply bg-background text-foreground font-inter antialiased smooth-scroll;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-dm-sans font-bold;
+  }
+
+  p, li {
+    @apply content-spacing;
   }
 }
 
@@ -124,6 +128,22 @@ All colors MUST be HSL.
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  }
+
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .text-gradient {
@@ -139,6 +159,7 @@ All colors MUST be HSL.
 
   .hover-lift:hover {
     transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
   }
 
   .shadow-soft {
@@ -147,5 +168,40 @@ All colors MUST be HSL.
 
   .shadow-purple {
     box-shadow: 0 8px 30px rgba(108, 78, 255, 0.15);
+  }
+
+  .shadow-elevated {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Improved readability utilities */
+  .content-spacing {
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+  }
+
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+
+  /* Lazy load fade-in animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .lazy-load {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  /* Enhanced fade-up with stagger support */
+  .fade-in-stagger {
+    animation: fadeInUp 0.8s ease-out both;
   }
 }
