@@ -11,7 +11,7 @@ const N8nAutomation = () => {
   return (
     <>
       <SEOHead
-        title="n8n Workflow Automation in South Africa — Built by Franz Badenhorst"
+        title="n8n Workflow Automation in South Africa - Built by Franz Badenhorst"
         description="Franz and his team at SIG Solutions connect Meta, WhatsApp, CRMs, and payment systems into seamless n8n workflows. Perfect for SA agencies, NGOs, and growing businesses."
         keywords="n8n automation South Africa, workflow automation, marketing automation systems, CRM integration, Franz Badenhorst automation"
         canonicalUrl="https://leadlabs.co.za/n8n-automation"
@@ -103,7 +103,7 @@ const N8nAutomation = () => {
                 <p className="text-muted-foreground mb-4">
                   A subscription business needed to connect Stripe payments to their fulfillment system and WhatsApp notifications. 
                   The SIG Solutions team built a workflow that confirms payment, triggers warehouse picking, 
-                  and sends tracking updates — all in real-time.
+                  and sends tracking updates - all in real-time.
                 </p>
                 <div className="flex items-center space-x-2 text-sm">
                   <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">8 hours/week saved</span>

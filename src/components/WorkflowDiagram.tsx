@@ -15,7 +15,7 @@ const WorkflowDiagram = () => {
           Your Automated Revenue System
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          See exactly how every lead flows from ad click to closed sale — built, monitored, and optimized by Franz Badenhorst and the SIG Solutions team.
+          See exactly how every lead flows from ad click to closed sale - built, monitored, and optimized by Franz Badenhorst and the SIG Solutions team.
         </p>
         
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-0">
