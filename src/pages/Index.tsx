@@ -51,16 +51,16 @@ const Index = () => {
         />
 
         {/* What We Do */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-4">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-8 leading-relaxed">
               What We Do
             </h2>
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg leading-relaxed">
               Three core services that work together to transform your marketing into a revenue machine.
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <ServiceCard
                 icon={Target}
                 title="Meta Ads Management"
@@ -84,12 +84,12 @@ const Index = () => {
         </section>
 
         {/* Proof in Numbers */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-20 leading-relaxed">
               Proof in Numbers
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
               <div className="animate-fade-up border-r border-border/50 last:border-r-0">
                 <div className="text-6xl md:text-7xl font-dm-sans font-bold text-gradient mb-3">320-540%</div>
                 <p className="text-lg text-muted-foreground font-medium">Average ROI Uplift</p>
@@ -109,9 +109,9 @@ const Index = () => {
         <ClientLogos />
 
         {/* Franz Badenhorst Section */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
               <div className="animate-fade-up">
                 <img 
                   src={franzPortrait} 
@@ -121,15 +121,15 @@ const Index = () => {
                 />
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <h2 className="text-3xl md:text-4xl font-dm-sans font-bold mb-6">
+                <h2 className="text-4xl md:text-5xl font-dm-sans font-bold mb-8 leading-relaxed">
                   Meet Franz Badenhorst
                 </h2>
-                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                   Managing Director of SIG Solutions and Acorn Brokers, Franz builds marketing systems 
                   used by NGOs, unions, and commercial teams across South Africa. SIG Solutions operates 
                   a 20-agent call center and automation agency based in Pretoria.
                 </p>
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
                   From Meta Ads to WhatsApp automation to n8n workflows - every campaign is built around 
                   measurable ROI, not vanity metrics. LeadLabs delivers systems that turn ad spend into 
                   sales - fast, measurable, and South African-built.
@@ -148,26 +148,26 @@ const Index = () => {
         <WorkflowDiagram />
 
         {/* LeadLabs Impact Summary */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold mb-16">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold mb-20 leading-relaxed">
               LeadLabs at Scale
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="p-8 bg-background rounded-xl shadow-soft hover-lift animate-fade-up">
-                <div className="text-5xl font-dm-sans font-bold text-gradient mb-3">20K+</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+              <div className="p-10 bg-background rounded-xl shadow-soft hover-lift animate-fade-up">
+                <div className="text-5xl font-dm-sans font-bold text-gradient mb-4">20K+</div>
                 <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Leads Monthly</p>
               </div>
-              <div className="p-8 bg-background rounded-xl shadow-soft hover-lift animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="text-5xl font-dm-sans font-bold text-gradient mb-3">±R5</div>
+              <div className="p-10 bg-background rounded-xl shadow-soft hover-lift animate-fade-up" style={{ animationDelay: '0.1s' }}>
+                <div className="text-5xl font-dm-sans font-bold text-gradient mb-4">±R5</div>
                 <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Avg CPL</p>
               </div>
-              <div className="p-8 bg-background rounded-xl shadow-soft hover-lift animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="text-5xl font-dm-sans font-bold text-gradient mb-3">±R1.50</div>
+              <div className="p-10 bg-background rounded-xl shadow-soft hover-lift animate-fade-up" style={{ animationDelay: '0.2s' }}>
+                <div className="text-5xl font-dm-sans font-bold text-gradient mb-4">±R1.50</div>
                 <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Avg Cost Per Click</p>
               </div>
-              <div className="p-8 bg-background rounded-xl shadow-soft hover-lift animate-fade-up" style={{ animationDelay: '0.3s' }}>
-                <div className="text-5xl font-dm-sans font-bold text-gradient mb-3">R45M+</div>
+              <div className="p-10 bg-background rounded-xl shadow-soft hover-lift animate-fade-up" style={{ animationDelay: '0.3s' }}>
+                <div className="text-5xl font-dm-sans font-bold text-gradient mb-4">R45M+</div>
                 <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Managed Spend</p>
               </div>
             </div>

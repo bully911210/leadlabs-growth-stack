@@ -27,20 +27,20 @@ const N8nAutomation = () => {
         />
 
         {/* Why n8n */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-6">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-8 leading-relaxed">
               Why n8n?
             </h2>
-            <p className="text-xl text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            <p className="text-xl text-center text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
               Unlike Zapier or Make, n8n gives you complete control over your data and workflows. 
               It's open-source, infinitely scalable, and perfect for South African businesses that need reliable automation.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="animate-fade-up">
-                <h3 className="text-xl font-dm-sans font-bold mb-3">What We Connect</h3>
-                <ul className="space-y-2">
+                <h3 className="text-2xl font-dm-sans font-bold mb-5 leading-relaxed">What We Connect</h3>
+                <ul className="space-y-3">
                   {[
                     "Meta Ads lead forms → CRM",
                     "WhatsApp conversations → Sales pipeline",
@@ -48,17 +48,17 @@ const N8nAutomation = () => {
                     "Email campaigns → Behavior tracking",
                     "Custom APIs → Internal systems"
                   ].map((item, index) => (
-                    <li key={index} className="flex items-start space-x-2">
-                      <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={18} />
-                      <span>{item}</span>
+                    <li key={index} className="flex items-start space-x-3">
+                      <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={22} />
+                      <span className="text-lg leading-relaxed">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <h3 className="text-xl font-dm-sans font-bold mb-3">What You Get</h3>
-                <ul className="space-y-2">
+                <h3 className="text-2xl font-dm-sans font-bold mb-5 leading-relaxed">What You Get</h3>
+                <ul className="space-y-3">
                   {[
                     "Custom n8n workflows designed for your business",
                     "Complete visibility into every lead source",
@@ -66,9 +66,9 @@ const N8nAutomation = () => {
                     "Zero manual data entry",
                     "Full documentation and team training"
                   ].map((item, index) => (
-                    <li key={index} className="flex items-start space-x-2">
-                      <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={18} />
-                      <span>{item}</span>
+                    <li key={index} className="flex items-start space-x-3">
+                      <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={22} />
+                      <span className="text-lg leading-relaxed">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -78,49 +78,49 @@ const N8nAutomation = () => {
         </section>
 
         {/* Integration Examples */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-16 leading-relaxed">
               Real Workflows We've Built
             </h2>
 
-            <div className="space-y-8">
-              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift">
-                <h3 className="text-2xl font-dm-sans font-bold mb-3">Meta → WhatsApp → CRM</h3>
-                <p className="text-muted-foreground mb-4">
+            <div className="space-y-10">
+              <div className="glass-card rounded-2xl p-10 shadow-elevated animate-fade-up hover-lift">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Meta → WhatsApp → CRM</h3>
+                <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                   A South African NGO was losing 40% of their Meta Ads leads because manual follow-up took too long. 
                   Franz built an n8n workflow that instantly sends WhatsApp messages, qualifies leads through automated questions, 
                   and adds high-intent prospects to their CRM with full attribution.
                 </p>
-                <div className="flex items-center space-x-2 text-sm">
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">40% more conversions</span>
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">Zero manual entry</span>
+                <div className="flex items-center space-x-3 text-sm">
+                  <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">40% more conversions</span>
+                  <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Zero manual entry</span>
                 </div>
               </div>
 
-              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.1s' }}>
-                <h3 className="text-2xl font-dm-sans font-bold mb-3">E-commerce Fulfillment Automation</h3>
-                <p className="text-muted-foreground mb-4">
+              <div className="glass-card rounded-2xl p-10 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.1s' }}>
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">E-commerce Fulfillment Automation</h3>
+                <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                   A subscription business needed to connect Stripe payments to their fulfillment system and WhatsApp notifications. 
                   The SIG Solutions team built a workflow that confirms payment, triggers warehouse picking, 
                   and sends tracking updates - all in real-time.
                 </p>
-                <div className="flex items-center space-x-2 text-sm">
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">8 hours/week saved</span>
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">99.9% accuracy</span>
+                <div className="flex items-center space-x-3 text-sm">
+                  <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">8 hours/week saved</span>
+                  <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">99.9% accuracy</span>
                 </div>
               </div>
 
-              <div className="glass-card rounded-2xl p-8 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.2s' }}>
-                <h3 className="text-2xl font-dm-sans font-bold mb-3">Multi-Platform Reporting Dashboard</h3>
-                <p className="text-muted-foreground mb-4">
+              <div className="glass-card rounded-2xl p-10 shadow-elevated animate-fade-up hover-lift" style={{ animationDelay: '0.2s' }}>
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Multi-Platform Reporting Dashboard</h3>
+                <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
                   A commercial client running campaigns across Meta, Google, and LinkedIn needed unified reporting. 
                   Franz created an n8n workflow that pulls data from all platforms daily, calculates ROI by source, 
                   and delivers a single dashboard to their executive team.
                 </p>
-                <div className="flex items-center space-x-2 text-sm">
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">Daily automated reports</span>
-                  <span className="px-3 py-1 rounded-full bg-primary/10 text-primary font-medium">Full attribution</span>
+                <div className="flex items-center space-x-3 text-sm">
+                  <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Daily automated reports</span>
+                  <span className="px-4 py-2 rounded-full bg-primary/10 text-primary font-medium">Full attribution</span>
                 </div>
               </div>
             </div>
@@ -128,24 +128,24 @@ const N8nAutomation = () => {
         </section>
 
         {/* Internal Links */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold mb-8 leading-relaxed">
               n8n Works Best When Connected
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-xl text-muted-foreground mb-10 leading-relaxed">
               Our automation systems combine all three core services for maximum impact.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-5 justify-center">
               <Link 
                 to="/meta-ads"
-                className="px-6 py-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors font-medium"
+                className="px-8 py-4 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors font-medium text-lg"
               >
                 Learn About Meta Ads →
               </Link>
               <Link 
                 to="/whatsapp-api"
-                className="px-6 py-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors font-medium"
+                className="px-8 py-4 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-colors font-medium text-lg"
               >
                 Explore WhatsApp Automation →
               </Link>

@@ -61,35 +61,35 @@ const MetaAds = () => {
         />
 
         {/* Core Services */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div className="text-center animate-fade-up">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="text-primary" size={32} />
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <CheckCircle2 className="text-primary" size={36} />
                 </div>
-                <h3 className="text-xl font-dm-sans font-bold mb-2">Creative That Converts</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Creative That Converts</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   We test, iterate, and scale the ad creative that actually drives sales - not just engagement.
                 </p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="text-primary" size={32} />
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <CheckCircle2 className="text-primary" size={36} />
                 </div>
-                <h3 className="text-xl font-dm-sans font-bold mb-2">Data-Driven Optimization</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Data-Driven Optimization</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   Every campaign decision is backed by data. We optimize for cost per acquisition, not impressions.
                 </p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <CheckCircle2 className="text-primary" size={32} />
+                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+                  <CheckCircle2 className="text-primary" size={36} />
                 </div>
-                <h3 className="text-xl font-dm-sans font-bold mb-2">Transparent Reporting</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Transparent Reporting</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   You'll see exactly where every Rand goes and what it returns - in real-time dashboards.
                 </p>
               </div>
@@ -98,12 +98,12 @@ const MetaAds = () => {
         </section>
 
         {/* What You Get */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-16 leading-relaxed">
               What You Get
             </h2>
-            <div className="space-y-4">
+            <div className="space-y-5">
               {[
                 "Complete Meta Ads account setup and structure for South African businesses",
                 "Custom audience targeting based on your ideal customer profile",
@@ -112,9 +112,9 @@ const MetaAds = () => {
                 "Weekly performance reports with actionable insights",
                 "Direct integration with your WhatsApp automation and CRM systems"
               ].map((item, index) => (
-                <div key={index} className="flex items-start space-x-3 animate-fade-up" style={{ animationDelay: `${index * 0.05}s` }}>
-                  <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={20} />
-                  <p className="text-lg">{item}</p>
+                <div key={index} className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: `${index * 0.05}s` }}>
+                  <CheckCircle2 className="text-primary flex-shrink-0 mt-1" size={24} />
+                  <p className="text-lg leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
@@ -122,9 +122,9 @@ const MetaAds = () => {
         </section>
 
         {/* FAQ */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-16 leading-relaxed">
               Frequently Asked Questions
             </h2>
             <Accordion type="single" collapsible className="w-full">

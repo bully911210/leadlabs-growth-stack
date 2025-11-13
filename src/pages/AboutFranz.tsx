@@ -41,9 +41,9 @@ const AboutFranz = () => {
       
       <main>
         {/* Hero Section */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div className="animate-fade-up">
                 <img 
                   src={franzPortrait} 
@@ -53,13 +53,13 @@ const AboutFranz = () => {
                 />
               </div>
               <div className="animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <h1 className="text-4xl md:text-5xl font-dm-sans font-bold mb-6">
+                <h1 className="text-4xl md:text-5xl font-dm-sans font-bold mb-8 leading-relaxed">
                   About Franz Badenhorst
                 </h1>
-                <p className="text-xl text-muted-foreground mb-4">
+                <p className="text-xl text-muted-foreground mb-6">
                   Managing Director, SIG Solutions & Acorn Brokers
                 </p>
-                <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                   Franz Badenhorst is the Managing Director and equity partner at SIG Solutions and Acorn Brokers — a Pretoria-based 20-agent sales and automation agency. He builds Meta Ads systems, WhatsApp funnels, and n8n automations used by NGOs, unions, and commercial teams across South Africa.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
@@ -71,52 +71,52 @@ const AboutFranz = () => {
         </section>
 
         {/* Achievements */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-20 leading-relaxed">
               Track Record
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
               <div className="text-center animate-fade-up">
-                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                  <TrendingUp className="text-primary" size={40} />
+                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-8">
+                  <TrendingUp className="text-primary" size={44} />
                 </div>
-                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">R45M+</div>
-                <p className="text-lg text-muted-foreground font-medium">Total Managed Ad Spend</p>
+                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-4">R45M+</div>
+                <p className="text-xl text-muted-foreground font-medium leading-relaxed">Total Managed Ad Spend</p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                  <Users className="text-primary" size={40} />
+                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-8">
+                  <Users className="text-primary" size={44} />
                 </div>
-                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">20K+</div>
-                <p className="text-lg text-muted-foreground font-medium">Verified Leads Generated Monthly</p>
+                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-4">20K+</div>
+                <p className="text-xl text-muted-foreground font-medium leading-relaxed">Verified Leads Generated Monthly</p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                  <Award className="text-primary" size={40} />
+                <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-8">
+                  <Award className="text-primary" size={44} />
                 </div>
-                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-3">320-540%</div>
-                <p className="text-lg text-muted-foreground font-medium">ROI Uplift Across Client Accounts</p>
+                <div className="text-5xl md:text-6xl font-dm-sans font-bold text-gradient mb-4">320-540%</div>
+                <p className="text-xl text-muted-foreground font-medium leading-relaxed">ROI Uplift Across Client Accounts</p>
               </div>
             </div>
             
-            <div className="max-w-4xl mx-auto mt-16 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-              <p className="text-lg text-muted-foreground leading-relaxed text-center">
+            <div className="max-w-4xl mx-auto mt-20 animate-fade-up" style={{ animationDelay: '0.3s' }}>
+              <p className="text-xl text-muted-foreground leading-relaxed text-center">
                 These figures represent real results from South African businesses using SIG's automation stack — not projections or estimates.
               </p>
             </div>
             
-            <div className="max-w-4xl mx-auto mt-12 animate-fade-up" style={{ animationDelay: '0.4s' }}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-background p-6 rounded-xl shadow-soft">
-                  <div className="text-3xl font-dm-sans font-bold text-gradient mb-2">40%</div>
-                  <p className="text-muted-foreground">Higher conversion rate through WhatsApp automation</p>
+            <div className="max-w-4xl mx-auto mt-16 animate-fade-up" style={{ animationDelay: '0.4s' }}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div className="bg-background p-8 rounded-xl shadow-soft">
+                  <div className="text-3xl font-dm-sans font-bold text-gradient mb-3">40%</div>
+                  <p className="text-muted-foreground text-lg leading-relaxed">Higher conversion rate through WhatsApp automation</p>
                 </div>
-                <div className="bg-background p-6 rounded-xl shadow-soft">
-                  <div className="text-3xl font-dm-sans font-bold text-gradient mb-2">R5</div>
-                  <p className="text-muted-foreground">Average cost per lead</p>
+                <div className="bg-background p-8 rounded-xl shadow-soft">
+                  <div className="text-3xl font-dm-sans font-bold text-gradient mb-3">R5</div>
+                  <p className="text-muted-foreground text-lg leading-relaxed">Average cost per lead</p>
                 </div>
               </div>
             </div>
@@ -124,39 +124,39 @@ const AboutFranz = () => {
         </section>
 
         {/* Experience & Focus */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-20 leading-relaxed">
               Experience & Focus
             </h2>
             
-            <div className="space-y-10">
+            <div className="space-y-12">
               <div className="animate-fade-up">
-                <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+                <p className="text-xl text-muted-foreground leading-relaxed mb-10">
                   Franz's background spans direct sales, call center management, and performance marketing. He's managed R45M+ in ad spend, consistently delivering low-cost, high-quality lead systems.
                 </p>
                 
-                <h3 className="text-xl font-dm-sans font-semibold mb-4">Core Expertise</h3>
-                <ul className="space-y-3 text-lg text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-semibold mb-6 leading-relaxed">Core Expertise</h3>
+                <ul className="space-y-4 text-xl text-muted-foreground">
                   <li className="flex items-start">
-                    <span className="mr-3">•</span>
-                    <span>Meta Ads performance campaigns (R5 avg. cost per lead, R1.50 per click)</span>
+                    <span className="mr-4">•</span>
+                    <span className="leading-relaxed">Meta Ads performance campaigns (R5 avg. cost per lead, R1.50 per click)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="mr-3">•</span>
-                    <span>WhatsApp API & n8n automation funnels</span>
+                    <span className="mr-4">•</span>
+                    <span className="leading-relaxed">WhatsApp API & n8n automation funnels</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="mr-3">•</span>
-                    <span>Call center workflow optimization and reporting</span>
+                    <span className="mr-4">•</span>
+                    <span className="leading-relaxed">Call center workflow optimization and reporting</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="mr-3">•</span>
-                    <span>Scalable subscription and NGO fundraising systems</span>
+                    <span className="mr-4">•</span>
+                    <span className="leading-relaxed">Scalable subscription and NGO fundraising systems</span>
                   </li>
                 </ul>
                 
-                <p className="text-lg text-muted-foreground leading-relaxed mt-8">
+                <p className="text-xl text-muted-foreground leading-relaxed mt-10">
                   He doesn't sell vanity metrics. Every system he builds is designed to drive real, trackable growth.
                 </p>
               </div>
@@ -165,16 +165,16 @@ const AboutFranz = () => {
         </section>
 
         {/* Client Logos */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-16 leading-relaxed">
               Organizations Franz Has Worked With
             </h2>
-            <div className="flex flex-wrap justify-center items-center gap-12">
+            <div className="flex flex-wrap justify-center items-center gap-16">
               {["SIG", "TLU", "FG", "FSA", "DSA"].map((client, index) => (
                 <div
                   key={client}
-                  className="w-24 h-24 rounded-xl bg-background flex items-center justify-center font-dm-sans font-bold text-2xl text-muted-foreground hover:text-primary hover:bg-primary/5 transition-all duration-300 hover-lift shadow-soft animate-fade-up"
+                  className="w-28 h-28 rounded-xl bg-background flex items-center justify-center font-dm-sans font-bold text-2xl text-muted-foreground hover:text-primary hover:bg-primary/5 transition-all duration-300 hover-lift shadow-soft animate-fade-up"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   {client}

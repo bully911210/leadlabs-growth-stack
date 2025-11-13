@@ -53,35 +53,35 @@ const WhatsAppAPI = () => {
         />
 
         {/* Core Features */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div className="text-center animate-fade-up">
-                <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-                  <MessageCircle className="text-green-500" size={32} />
+                <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
+                  <MessageCircle className="text-green-500" size={36} />
                 </div>
-                <h3 className="text-xl font-dm-sans font-bold mb-2">Automated Replies That Feel Human</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Automated Replies That Feel Human</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   Instant responses to common questions - without sounding like a bot. Built for South African conversational style.
                 </p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-                  <Zap className="text-green-500" size={32} />
+                <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
+                  <Zap className="text-green-500" size={36} />
                 </div>
-                <h3 className="text-xl font-dm-sans font-bold mb-2">Broadcasts That Sell</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Broadcasts That Sell</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   Send targeted campaigns to segmented lists - with full analytics on open rates and conversions.
                 </p>
               </div>
 
               <div className="text-center animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
-                  <Shield className="text-green-500" size={32} />
+                <div className="w-20 h-20 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-6">
+                  <Shield className="text-green-500" size={36} />
                 </div>
-                <h3 className="text-xl font-dm-sans font-bold mb-2">Integrations That Save Hours</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-dm-sans font-bold mb-4 leading-relaxed">Integrations That Save Hours</h3>
+                <p className="text-muted-foreground text-lg leading-relaxed">
                   Connect WhatsApp to your CRM, payment gateway, and Meta Ads - all managed by n8n workflows.
                 </p>
               </div>
@@ -90,43 +90,43 @@ const WhatsAppAPI = () => {
         </section>
 
         {/* How It Works */}
-        <section className="py-20 px-4 bg-secondary/30">
+        <section className="py-24 px-6 md:px-12 bg-secondary/30">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-16 leading-relaxed">
               How It Works
             </h2>
-            <div className="space-y-8">
-              <div className="flex items-start space-x-4 animate-fade-up">
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-bold flex-shrink-0">
+            <div className="space-y-10">
+              <div className="flex items-start space-x-6 animate-fade-up">
+                <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white font-bold flex-shrink-0 text-xl">
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Lead Capture</h3>
-                  <p className="text-muted-foreground">
+                  <h3 className="text-2xl font-dm-sans font-bold mb-3 leading-relaxed">Lead Capture</h3>
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     Someone fills out your Meta Ad form. Within seconds, they receive a personalized WhatsApp message.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-bold flex-shrink-0">
+              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+                <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white font-bold flex-shrink-0 text-xl">
                   2
                 </div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Qualification</h3>
-                  <p className="text-muted-foreground">
+                  <h3 className="text-2xl font-dm-sans font-bold mb-3 leading-relaxed">Qualification</h3>
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     Automated questions qualify the lead. High-intent prospects get routed to your sales team immediately.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4 animate-fade-up" style={{ animationDelay: '0.2s' }}>
-                <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-bold flex-shrink-0">
+              <div className="flex items-start space-x-6 animate-fade-up" style={{ animationDelay: '0.2s' }}>
+                <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-white font-bold flex-shrink-0 text-xl">
                   3
                 </div>
                 <div>
-                  <h3 className="text-xl font-dm-sans font-bold mb-2">Conversion</h3>
-                  <p className="text-muted-foreground">
+                  <h3 className="text-2xl font-dm-sans font-bold mb-3 leading-relaxed">Conversion</h3>
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     Your team takes over the conversation - with full context from the automation. Every interaction is logged in your CRM.
                   </p>
                 </div>
@@ -136,9 +136,9 @@ const WhatsAppAPI = () => {
         </section>
 
         {/* FAQ */}
-        <section className="py-20 px-4">
+        <section className="py-24 px-6 md:px-12">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-dm-sans font-bold text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-dm-sans font-bold text-center mb-16 leading-relaxed">
               Common Questions
             </h2>
             <Accordion type="single" collapsible className="w-full">
