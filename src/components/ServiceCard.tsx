@@ -13,16 +13,16 @@ interface ServiceCardProps {
 const ServiceCard = ({ icon: Icon, title, description, link }: ServiceCardProps) => {
   return (
     <Card className="hover-lift shadow-soft hover:shadow-purple transition-all duration-300 border-border/50 h-full flex flex-col">
-      <CardHeader className="flex-grow">
-        <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
-          <Icon className="text-primary" size={28} />
+      <CardHeader className="flex-grow p-8">
+        <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-8">
+          <Icon className="text-primary" size={32} />
         </div>
-        <CardTitle className="text-2xl font-dm-sans mb-4">{title}</CardTitle>
-        <CardDescription className="text-base leading-relaxed">{description}</CardDescription>
+        <CardTitle className="text-2xl font-dm-sans mb-5 leading-relaxed">{title}</CardTitle>
+        <CardDescription className="text-lg leading-relaxed">{description}</CardDescription>
       </CardHeader>
-      <CardContent className="pt-0">
+      <CardContent className="pt-0 pb-8 px-8">
         <Link to={link}>
-          <Button variant="outline" className="w-full rounded-full hover:bg-primary hover:text-primary-foreground transition-colors h-12 font-medium">
+          <Button variant="outline" className="w-full rounded-full hover:bg-primary hover:text-primary-foreground transition-colors h-14 font-medium text-base">
             Learn More
           </Button>
         </Link>
