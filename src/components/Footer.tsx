@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import ContactModal from "./ContactModal";
 
 const Footer = () => {
+  const [isContactOpen, setIsContactOpen] = useState(false);
+
   return (
     <footer className="bg-secondary/30 border-t border-border/50 mt-24">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
@@ -8,7 +12,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-dm-sans font-bold text-gradient mb-6">LeadLabs</h3>
             <p className="text-muted-foreground mb-6 max-w-md text-lg leading-relaxed">
-              Full-stack marketing automation systems built by Franz Badenhorst and the SIG Solutions team. 
+              Full-stack marketing automation systems built by Franz Badenhorst and the SIG Solutions team.
               Serving businesses across South Africa with proven ROI-focused solutions.
             </p>
             <div className="text-base text-muted-foreground leading-relaxed">
@@ -31,7 +35,7 @@ const Footer = () => {
             <ul className="space-y-3 text-base text-muted-foreground">
               <li><Link to="/about-franz" className="hover:text-primary transition-colors">About Franz Badenhorst</Link></li>
               <li><a href="https://sigsolutions.co.za" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">SIG Solutions</a></li>
-              <li><Link to="/" className="hover:text-primary transition-colors">Contact</Link></li>
+              <li><button onClick={() => setIsContactOpen(true)} className="hover:text-primary transition-colors">Contact</button></li>
             </ul>
           </div>
         </div>
@@ -40,6 +44,8 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} LeadLabs by Franz Badenhorst. Built in South Africa.</p>
         </div>
       </div>
+
+      <ContactModal isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
     </footer>
   );
 };

@@ -53,7 +53,7 @@ const MetaAds = () => {
 
       <Nav />
       
-      <main>
+      <main id="main-content">
         <Hero
           title="Ad Spend That Works As Hard As You Do."
           subtitle="Franz Badenhorst is one of South Africa's top Meta Ads strategists - running campaigns across NGOs, commercial, and subscription models. Every campaign is built around ROI, not vanity metrics."

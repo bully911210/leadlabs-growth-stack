@@ -45,7 +45,7 @@ const WhatsAppAPI = () => {
 
       <Nav />
       
-      <main>
+      <main id="main-content">
         <Hero
           title="Your Best Salesperson Is Now Automated."
           subtitle="Franz integrates Meta leads directly into WhatsApp - turning conversations into conversions. Every automation uses compliant APIs and feels human, not robotic."
