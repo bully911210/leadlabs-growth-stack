@@ -44,7 +44,7 @@ const Index = () => {
 
       <Nav />
       
-      <main>
+      <main id="main-content">
         <Hero
           title="Your Growth. Automated."
           subtitle="LeadLabs builds full-stack marketing systems that turn ad spend into sales - fast, measurable, and South African-built."

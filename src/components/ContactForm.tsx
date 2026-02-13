@@ -67,11 +67,12 @@ const ContactForm = ({ defaultService, onSuccess }: ContactFormProps) => {
       });
 
       if (onSuccess) onSuccess();
-    } catch (error: any) {
-      console.error("Form submission error:", error);
+    } catch (error: unknown) {
+      const errMessage = error instanceof Error ? error.message : "Please try again or contact us directly.";
+      console.error("Form submission error:", errMessage);
       toast({
         title: "Failed to send message",
-        description: error.message || "Please try again or contact us directly.",
+        description: errMessage,
         variant: "destructive",
       });
     } finally {

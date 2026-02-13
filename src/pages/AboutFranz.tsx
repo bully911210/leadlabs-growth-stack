@@ -39,7 +39,7 @@ const AboutFranz = () => {
 
       <Nav />
       
-      <main>
+      <main id="main-content">
         {/* Hero Section */}
         <section className="py-24 px-6 md:px-12">
           <div className="max-w-6xl mx-auto">
@@ -47,7 +47,7 @@ const AboutFranz = () => {
               <div className="animate-fade-up">
                 <img 
                   src={franzPortrait} 
-                  alt="Franz Badenhorst, Chief Strategy Officer at SIG Solutions" 
+                  alt="Franz Badenhorst, Managing Director of SIG Solutions and Acorn Brokers" 
                   className="rounded-2xl shadow-elevated w-full hover-lift"
                   loading="lazy"
                 />

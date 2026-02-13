@@ -19,7 +19,7 @@ const N8nAutomation = () => {
 
       <Nav />
       
-      <main>
+      <main id="main-content">
         <Hero
           title="Everything That Can Be Automated, Should Be."
           subtitle="Franz and his team at SIG Solutions connect Meta, WhatsApp, CRMs, and payment systems into seamless workflows. You'll see exactly where every sale came from, and no lead ever slips through."
